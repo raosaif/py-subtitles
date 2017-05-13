@@ -50,7 +50,7 @@ def main(argv):
 		print('Please Provide Movie Name')
 		return usage()
 
-	movie_name = 'Brokeback.Mountain.2005.1080p.Bluray.x264.anoXmous.mp4'
+	movie_name = ''
 
 	def get_url_response(url):
 
