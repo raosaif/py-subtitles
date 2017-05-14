@@ -1,5 +1,14 @@
 #!/usr/bin/env python3
-
+#-------------------------------------------------------------------------------
+# Name      : subtitle downloader
+# Purpose   : One step subtitle download
+#
+# Authors   : Rao Saifullah
+# Edited by : Rao Saifullah
+# Created   :
+# Copyright : (c) raosaif
+# Licence   : GPL v3
+#--------------------------------------------------------------------------------
 from bs4 import BeautifulSoup
 import urllib.request
 import re
