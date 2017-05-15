@@ -1,12 +1,11 @@
-# py-subtitles
+# py-subtitles-click
 
-py-subtitles automates boring and time-consuming task into a single click action and saves your precious time. 
+py-subtitles-click automates boring and time-consuming task into a single click action and saves your precious time. 
 Subtitles are great especially when video is done in a language that you do not understand. If you are French and want to share videos with people who only understand English, you will have to add subtitles to your video. 
 
 Description
 ----------
-
-py-subtitles and py-subtitles-click are python scripts to download subtitles for a movie with a movie name provided or single right click on movie file. Right click on a movie file and download the subtitle. If there is no exact subtitle then this script will download a subtitle from an exisiting pool of priority subtitles. You can edit the prirority list and add your own preffered list to download the subtitles.
+py-subtitles-click is python script to download subtitles for a movie with a movie name provided or single right click on movie file. Right click on a movie file and download the subtitle. If there is no exact subtitle then this script will download a subtitle from an exisiting pool of priority subtitles. You can edit the prirority list and add your own preffered list to download the subtitles.
 
 ![alt text](https://github.com/raosaif/py-subtitles/blob/master/images/right-click.jpg)
 
@@ -16,9 +15,6 @@ The search for subtitles in this site is very simple once you know the right nam
 
 Process
 -------
-There are two scripts
-
-* py-subttitles.py is a script which can be used from a command line with a movie name provided
 * py-subtitles-click.py is a script which can be made right click based action using Nautilus-Action configuration tools.
 
 If there is no exact subtitle for the movie name and format then py-subtitles will download movie subtitle which matched a tag from priority list. You can edit this list from the script
@@ -36,15 +32,12 @@ Nautilus-Actions is easy to create custom context menu options for Ubuntu’s Na
 
 Features
 --------
-* Saves you a lot of time and frustrations: right click on the movie and everything automagically works!
-* It is lightweight and fast
+* Saves you a lot of time and frustrations: right click on the movie and everything automagically works.
+* It is lightweight and fast.
 * It is actively developed and we try to listen our users.
+* depend only on BeautifulSoup.
 
 Comman-Line Example
 -------------------
-You need to add geckodriver to your path 
-
-    $ export PATH=$PATH:/path/to/geckdriver/directory/
-    $ ./py-subtitles -b movieName #command-line utility to download subtitles for a movie file
-    $ ./py-subtitles-click #context menu option to download subtitles of a movie file
+    $ ./py-subtitles-click -b Moviename #context menu option to download subtitles of a movie file
     
