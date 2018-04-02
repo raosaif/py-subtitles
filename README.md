@@ -28,7 +28,7 @@ Nautilus-Actions is easy to create custom context menu options for Ubuntu’s Na
 ![alt text](https://github.com/raosaif/py-subtitles/blob/master/images/nautilus-actions.jpg)
 
 
-* ![How to Easily Add Custom Right-Click Options to Ubuntu’s File Manager] (https://www.howtogeek.com/116807/how-to-easily-add-custom-right-click-options-to-ubuntus-file-manager/)
+![How to Easily Add Custom Right-Click Options to Ubuntu’s File Manager] (https://www.howtogeek.com/116807/how-to-easily-add-custom-right-click-options-to-ubuntus-file-manager/)
 
 Features
 --------
